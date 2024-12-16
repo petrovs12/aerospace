@@ -128,9 +128,9 @@ ctrl-shift-alt-cmd-8 = 'move-node-to-workspace 8'
 ctrl-shift-alt-cmd-9 = 'move-node-to-workspace 9'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
-ctrl-shift-alt-tab = 'workspace-back-and-forth'
+ctrl-cmd-alt-tab = 'workspace-back-and-forth'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
-ctrl-shift-alt-cmd-tab = 'move-workspace-to-monitor --wrap-around next'
+ctrl-cmd-alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 ctrl-alt-cmd-semicolon = 'mode service'
