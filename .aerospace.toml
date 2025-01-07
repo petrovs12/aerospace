@@ -15,7 +15,7 @@ after-login-command = []
 after-startup-command = []
 
 # Start AeroSpace at login
-start-at-login = false
+start-at-login = true
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -102,8 +102,8 @@ ctrl-shift-alt-cmd-up = 'move up'
 ctrl-shift-alt-cmd-right = 'move right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
-ctrl-alt-shift-0 = 'resize smart -50'
-ctrl-alt-shift-equal = 'resize smart +50'
+ctrl-alt-cmd-minus = 'resize smart -50'
+ctrl-alt-cmd-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 ctrl-cmd-alt-1 = 'workspace 1'
@@ -117,20 +117,24 @@ ctrl-cmd-alt-8 = 'workspace 8'
 ctrl-cmd-alt-9 = 'workspace 9'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-ctrl-shift-alt-cmd-1 = 'move-node-to-workspace 1'
-ctrl-shift-alt-cmd-2 = 'move-node-to-workspace 2'
-ctrl-shift-alt-cmd-3 = 'move-node-to-workspace 3'
-ctrl-shift-alt-cmd-4 = 'move-node-to-workspace 4'
-ctrl-shift-alt-cmd-5 = 'move-node-to-workspace 5'
-ctrl-shift-alt-cmd-6 = 'move-node-to-workspace 6'
-ctrl-shift-alt-cmd-7 = 'move-node-to-workspace 7'
-ctrl-shift-alt-cmd-8 = 'move-node-to-workspace 8'
-ctrl-shift-alt-cmd-9 = 'move-node-to-workspace 9'
+ctrl-cmd-alt-shift-1 = 'move-node-to-workspace 1'
+ctrl-cmd-alt-shift-2 = 'move-node-to-workspace 2'
+ctrl-cmd-alt-shift-3 = 'move-node-to-workspace 3'
+ctrl-cmd-alt-shift-4 = 'move-node-to-workspace 4'
+ctrl-cmd-alt-shift-5 = 'move-node-to-workspace 5'
+ctrl-cmd-alt-shift-6 = 'move-node-to-workspace 6'
+ctrl-cmd-alt-shift-7 = 'move-node-to-workspace 7'
+ctrl-cmd-alt-shift-8 = 'move-node-to-workspace 8'
+ctrl-cmd-alt-shift-9 = 'move-node-to-workspace 9'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 ctrl-cmd-alt-tab = 'workspace-back-and-forth'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
-ctrl-cmd-alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
+ctrl-cmd-alt-shift-rightSquareBracket = 'move-workspace-to-monitor --wrap-around prev'
+ctrl-cmd-alt-shift-leftSquareBracket = 'move-workspace-to-monitor --wrap-around next'
+# ctrl-cmd-alt-tab = 'move-workspace-to-monitor --wrap-around next'
+ctrl-cmd-alt-rightSquareBracket = 'move-node-to-monitor --wrap-around prev'
+ctrl-cmd-alt-leftSquareBracket = 'move-node-to-monitor --wrap-around next'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 ctrl-alt-cmd-semicolon = 'mode service'
